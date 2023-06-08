@@ -1,9 +1,9 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
-import iNBA from '../imagess/NBA.jpeg';
-import iMaillotNBA from '../imagess/Maillot NBA de Golden State Warriors.jpeg'
-import iCasquette from '../imagess/Casquette  NBA Chicago Bulls.jpeg'
-const Slideim = () => {
+import Carousel from 'react-bootstrap/Carousel'; //importer le composant Carousel depuis la bibliothèque boostrap 
+import iNBA from '../imagess/NBA.jpeg';   //importer l'image iNBA du dossier Imagess
+import iMaillotNBA from '../imagess/Maillot NBA de Golden State Warriors.jpeg'    //importer l'image iMaillotNBA du dossier Imagess
+import iCasquette from '../imagess/Casquette  NBA Chicago Bulls.jpeg'             //importer l'image iCasquette du dossier Imagess
+const Slideim = () => {     //  initialitation de notre composant intitulé Slideim
   return (
     <div>
       <h1 style={{textAlign:'center'}}>Choisisez une photo</h1>
